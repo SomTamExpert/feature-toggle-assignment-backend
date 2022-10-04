@@ -9,6 +9,12 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 import java.util.List;
 
+/**
+ * Service for the FeatureToggle
+ *
+ * @author marco karpf
+ * @version 04.10.22
+ */
 @Service
 public class FeatureToggleService {
     @Autowired

@@ -2,6 +2,12 @@ package ch.swiss.km.featuretoggleassignmentbackend.model;
 
 import javax.persistence.*;
 
+/**
+ * Class FeatureToggle Entity
+ *
+ * @author marco karpf
+ * @version 04.10.22
+ */
 @Entity
 @Table(name = "feature_toggles")
 public class FeatureToggle {
@@ -20,10 +26,12 @@ public class FeatureToggle {
         this.name = name;
         this.active = active;
     }
+
     public FeatureToggle(String name, Boolean active) {
         this.name = name;
         this.active = active;
     }
+
     public FeatureToggle() {
     }
 
